@@ -1,0 +1,8 @@
+# 忽略 .txt 文件
+*.txt
+
+# 忽略文件夹下的所有文件
+venv/
+.idea/
+__pycache__/
+result/

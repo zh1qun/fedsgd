@@ -78,7 +78,7 @@ def get_test_data():
     # data = pickle.load(fin)
 
     # return data['X']
-    data = pd.read_csv("./test/two-types-34-samples.csv", skipinitialspace=True, low_memory=False)
+    data = pd.read_csv("./test/type-total-8-150000-samples.csv", skipinitialspace=True, low_memory=False)
     x = extract_features(data)
     y = np.array([
         ATTACK_TYPES[t.split('_')[-1].replace('-', '').lower()]

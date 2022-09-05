@@ -28,7 +28,7 @@ class NNTestSuit(unittest.TestCase):
         self.log_interval = 20
         self.n_round_samples = 2048
         self.testbase = self.TEST_BASE_DIR
-        self.n_users = 4
+        self.n_users = 66
         self.testworkdir = os.path.join(self.testbase, 'competetion-test')
 
         if not os.path.exists(self.testworkdir):
